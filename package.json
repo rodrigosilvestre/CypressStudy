@@ -1,0 +1,30 @@
+{
+  "name": "CypressStudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigosilvestre/CypressStudy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigosilvestre/CypressStudy/issues"
+  },
+  "homepage": "https://github.com/rodrigosilvestre/CypressStudy#readme",
+  "devDependencies": {
+    "cypress": "^6.4.0",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-file-upload": "^5.0.2",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^1.6.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  }
+}
